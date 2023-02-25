@@ -28,6 +28,25 @@
     url('./assets/fonts/nunito-v25-latin_cyrillic-800.woff') format('woff');
 }
 
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #FFAB08 orange;
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #FFAB08;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: orange;
+  border-radius: 20px;
+  border: 3px solid orange;
+}
+
 html {
   box-sizing: border-box;
   position: relative;
