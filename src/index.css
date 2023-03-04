@@ -4,7 +4,8 @@
   font-weight: 400;
   font-display: swap;
   src: local(''),
-    url('./assets/fonts/nunito-v25-latin_cyrillic-regular.woff2') format('woff2'),
+    url('./assets/fonts/nunito-v25-latin_cyrillic-regular.woff2')
+      format('woff2'),
     url('./assets/fonts/nunito-v25-latin_cyrillic-regular.woff') format('woff');
 }
 
@@ -30,7 +31,7 @@
 
 * {
   scrollbar-width: thin;
-  scrollbar-color: #FFAB08 orange;
+  scrollbar-color: #ffab08 orange;
 }
 
 *::-webkit-scrollbar {
@@ -38,7 +39,7 @@
 }
 
 *::-webkit-scrollbar-track {
-  background: #FFAB08;
+  background: #ffab08;
 }
 
 *::-webkit-scrollbar-thumb {
