@@ -2,6 +2,7 @@
   position: relative;
 }
 
+
 .wrapper {
   position: absolute;
   left: 0;
@@ -11,6 +12,11 @@
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
   border-radius: 12px;
   padding: 16px 10px;
+
+}
+
+.zIndex {
+  z-index: 10;
 }
 
 .header {
@@ -58,9 +64,11 @@
 
 .wrap_list {
   display: none;
+
+
 }
 
-.order_open .wrap_list {
+.order_open  {
   display: block;
 }
 
@@ -101,6 +109,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+ 
 }
 
 .text {
@@ -126,13 +135,10 @@
 
 @media (min-width: 768px) {
   .order {
-    width: 145px;
-    transition: width 0.06s ease-in-out;
+    transition: width 0.6s ease-in-out;
   }
 
-  .order.order_open {
-    width: 300px;
-  }
+  
 }
 
 @media (min-width: 1024px) {

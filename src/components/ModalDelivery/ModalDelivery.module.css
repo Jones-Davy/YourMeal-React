@@ -5,6 +5,7 @@
   cursor: pointer;
   overflow-y: auto;
   display: flex;
+  z-index: 100;
 }
 
 .modal__close {

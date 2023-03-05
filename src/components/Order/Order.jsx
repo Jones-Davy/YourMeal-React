@@ -1,11 +1,18 @@
 import { useDispatch, useSelector } from 'react-redux'
 import { orderRequestAsync } from '../../store/order/orderSlice'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import OrderGoods from '../OrderGoods/OrderGoods'
 import style from './Order.module.css'
 import { openModal } from '../../store/modalDelivery/modalDeliverySlice'
+import classNames from 'classnames';
 
 const Order = () => {
+  const [isActive, setIsActive] = useState(false);
+
+  const handleActive = () => {
+    setIsActive(!isActive);
+  };
+
   const {totalPrice, totalCount, orderList, orderGoods} = useSelector(state => state.order)
   const dispatch = useDispatch()
 
@@ -16,15 +23,15 @@ const Order = () => {
 
   return (
     <div className={style.order}>
-    <section className={style.wrapper}>
-      <div className={style.header} tabIndex="0" role="button">
+    <section className={isActive ? classNames(style.wrapper, style.zIndex) : style.wrapper}>
+      <div className={style.header} onClick={handleActive} tabIndex="0" role="button">
         <h2 className={style.title}>Корзина</h2>
 
         <span className={style.count}>{totalCount}</span>
       </div>
 
-      <div className={style.wrap_list}>
-        <ul className={style.list}>
+      <div className={isActive ? classNames(style.wrap_list, style.order_open) : style.wrap_list}>
+        <ul className={classNames(style.list)}>
           {orderGoods.map((item) => <OrderGoods key={item.id} {...item}/>)}
         </ul>
 
