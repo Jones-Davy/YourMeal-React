@@ -27,23 +27,28 @@
 
 <br/>
 <br/>
-Для запуска проекта вам необходимо перейти в папку api 📂 и набрать команду в терминале:
+Для запуска проекта вам необходимо открыть терминал и установить нужные пакеты:
 
 ```javascript
-node index
+npm i
 ```
+Затем введите следующую команду и откройте веб-сайт по адресу localhost:
+
+```javascript
+npm run dev
+```
+
 <br/>
 
-<h3>Технологии проекта :hammer_and_wrench:</h3>
+<h3>Технологии проекта :hammer_and_wrench:</h3> 
 <p>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>  Семантическая вёрстка, работа с формами, модальными окнами, svg и выпадающими списками
-    <br/>
-    <br/>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>  Mobile first, accessibility, adaptive, псевдоклассы и псевдоэлементы, переменные, импортируемые шрифты, составные селекторы и анимации, stylized scrollbar, @supports.
-    <br/>
-    <br/>
-   <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>   Модульный подход, fetch, работа с DOM, async/await, promise, api, try/catch, JSON, делегирование событий.
-    <br/>
-    <br/>
+   <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" height=30 />
+   <img alt="redux toolkit" src="https://img.shields.io/badge/-Redux_Toolkit-764ABC?style=flat-square&logo=redux&logoColor=white" height=30 />
+   <img alt="git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" height=30/>
+   <img alt="Scss" src="https://img.shields.io/badge/-Scss-CC6699?style=flat-square&logo=sass&logoColor=white" height=30/>
+   <img alt="npm" src="https://img.shields.io/badge/-NPM-CB3837?style=flat-square&logo=npm&logoColor=white" height=30/>
+   <img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" height=30/>
+   <img alt="Nodejs" src="https://img.shields.io/badge/-Nodejs-43853d?style=flat-square&logo=Node.js&logoColor=white" height=30/>
+
   
 </p>
