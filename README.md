@@ -49,9 +49,8 @@ npm run dev
    <img alt="Scss" src="https://img.shields.io/badge/-Scss-CC6699?style=flat-square&logo=sass&logoColor=white" height=30/>
    <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-gray?logo=javascript" height=30/>
    <img alt="npm" src="https://img.shields.io/badge/-NPM-CB3837?style=flat-square&logo=npm&logoColor=white" height=30/>
+   <img alt="ViteJs" src="https://img.shields.io/badge/-Vite-blueviolet?style=flat-square&logo=Vite&logoColor=yellow" height=30/>
    <img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" height=30/>
    <img alt="Nodejs" src="https://img.shields.io/badge/-Nodejs-43853d?style=flat-square&logo=Node.js&logoColor=white" height=30/>
-   <img alt="ViteJs" src="https://img.shields.io/badge/-Vite-blueviolet?style=flat-square&logo=Vite&logoColor=yellow" height=30/>
-
   
 </p>
